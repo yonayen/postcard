@@ -103,6 +103,14 @@
                                     <rect key="frame" x="16" y="72" width="281" height="65"/>
                                 </variation>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yvl-fi-rub">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="22" y="207" width="173" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -112,6 +120,7 @@
                                 <exclude reference="40M-NS-i7r"/>
                                 <exclude reference="Hx2-6J-e3S"/>
                                 <exclude reference="bWl-I2-JjA"/>
+                                <exclude reference="yvl-fi-rub"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -121,6 +130,7 @@
                                 <include reference="40M-NS-i7r"/>
                                 <include reference="Hx2-6J-e3S"/>
                                 <include reference="bWl-I2-JjA"/>
+                                <include reference="yvl-fi-rub"/>
                             </mask>
                         </variation>
                     </view>
@@ -129,6 +139,7 @@
                         <outlet property="enterNameTextField" destination="PBw-VE-NEh" id="cql-ww-uzo"/>
                         <outlet property="mailButton" destination="Hx2-6J-e3S" id="CuY-cf-FVu"/>
                         <outlet property="messageLabel" destination="bWl-I2-JjA" id="FEW-Bk-PER"/>
+                        <outlet property="nameLabel" destination="yvl-fi-rub" id="X66-YY-FwN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
